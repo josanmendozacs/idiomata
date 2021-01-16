@@ -1,3 +1,8 @@
+:root {
+    --blue-idiomata: #294c82;
+    --grey-idiomata: #504e51;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,3 +13,13 @@ html {
     font-size: 62.5%;
 }
 
+header nav {
+    width: 100vw;
+    height: 2rem;
+    background-color: var(--blue-idiomata);
+}
+
+.container {
+    display: grid;
+    justify-items: right;
+}
