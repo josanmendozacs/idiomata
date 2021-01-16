@@ -39,9 +39,9 @@ header {
 }
 
 header img {
-  width: 100px;
-  height: 100px;
-  margin-top: 60px;
+  width: 160px;
+  height: 160px;
+  margin-top: 10px;
   align-self: center;
 }
 
@@ -101,14 +101,14 @@ header img {
 main {
     width: 100%;
     height: auto;
-    background-color: var(--warm-black);
-    color: var(--off-white);
+    background-color: var(--blue-words);
+    color: var(--just-white);
 }
 
 .main-exchange-container {
     width: 100%;
     height: auto;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 30px;
     text-align: center;
 }
@@ -118,4 +118,32 @@ main {
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.main-exchange-container .backgroundImg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-image: url('/assets/imgs/conversation-color.svg');
+  color: var(--grey);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-exchange-container h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.main-exchange-container p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: var(--off-white);
 }
