@@ -226,3 +226,30 @@ main {
   font-weight: 300;
   color: var(--warm-black);
 }
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 30px 10px;
+  background-color: var(--warm-black);
+}
+
+.product-detail--speech-logo {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  top: -33px;
+  left: calc(50% - 35px);
+  background-image: url("./assets/icons/translate.png");
+  background-repeat: no-repeat;
+}
+
+.product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
